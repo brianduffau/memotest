@@ -1,0 +1,51 @@
+*{
+    font-family: 'Arvo', serif;
+}
+
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FB6376;
+}
+
+#titulo{
+    height: auto;
+    text-align: center;
+    background-color: #875053;
+}
+
+#titulo h2, p{
+    color: #FFDCCC;
+}
+
+#titulo h2{
+    padding: 10px;
+}
+
+#tablero{
+    width: auto;
+    height: auto;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+td{
+    width: 25%;
+    height: 200px;
+    background-color: #FFDCCC;
+    text-align: center;
+    font-size: 80px;
+    color: #5D2A42
+}
+
+td:hover{
+    background-color: #5D2A42;
+    color: #FFDCCC
+}
+
